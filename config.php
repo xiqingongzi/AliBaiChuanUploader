@@ -1,6 +1,7 @@
 <?php
-//°¢Àê°Ù´¨AK&SK
-//»ñÈ¡µØÖ·£ºhttp://wantu.taobao.com/mediauser/index.htm
+//é˜¿ç‹¸ç™¾å·AK&SK
+//èŽ·å–åœ°å€ï¼šhttp://wantu.taobao.com/mediauser/index.htm
 $ak = 'XXXX';   // app key
 $sk = 'XXXXX'; // secret key
-$bucket='typecho';//¿Õ¼äÃû³Æ
+$bucket='typecho';//ç©ºé—´åç§°
+$dir ='zhujiceping';
