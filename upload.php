@@ -8,9 +8,9 @@ function bytesToSize1024($bytes, $precision = 2) {
 
 $image  = new AlibabaImage($ak, $sk, "TOP" /*$upload_endpoint, $manage_endpoint*/);
 $uploadPolicy = new uploadPolicy();
-$uploadPolicy->dir = '';    //
-$uploadPolicy->name =$_FILES['image_file']['name'];  // 文件名不能包含"/"
-$uploadPolicy->namespace= $bucket; // type =TOP 必填
+$uploadPolicy->dir = $ak;    //
+$uploadPolicy->name =$_FILES['image_file']['name'];  // 脦脛录镁脙没虏禄脛脺掳眉潞卢"/"
+$uploadPolicy->namespace= $bucket; // type =TOP 卤脴脤卯
 $res = $image->upload($_FILES['image_file']['tmp_name'],$uploadPolicy, $opts = array());
 //var_dump($res);
 $sFileName = $_FILES['image_file']['name'];
